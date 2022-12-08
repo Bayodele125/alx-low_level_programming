@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 *main-main function for size of types on computer
-*return- return 0 if void
+*return: return 0 if void
 */
 int main(void)
 {
