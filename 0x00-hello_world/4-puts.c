@@ -4,8 +4,8 @@
 * main - function for printing without the printf function
 * Return: 1 if the number is positive. 0 otherwise
  */
-int main (void)
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return 0; 
+	return (0);
 }
