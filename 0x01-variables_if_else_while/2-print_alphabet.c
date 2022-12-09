@@ -1,9 +1,13 @@
 #include <stdio.h>
-
-int main () {
+/**
+*main - main function
+*
+*Return: return 0 (SUCCESS)
+*/
+int main(void) {
 	char ch;
 
-	for(ch = 'a' ; ch <= 'z' ; ch++)
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 		putchar(ch);
 	putchar('\n');
 	return (0);
