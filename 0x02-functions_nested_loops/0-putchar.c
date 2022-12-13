@@ -1,14 +1,11 @@
-#include <main.h>
+#include "main.h"
 
 /**
-*main - main function to print value
-*
-*Return: ALWAYS 0 (SUCCESS)
+*main - Prints "_putchar" followed by a new line
 */
 
 int main(void)
 {
 	_putchar('_putchar');
 	_putchar('\n');
-	return (0);
 }
