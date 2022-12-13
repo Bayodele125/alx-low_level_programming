@@ -1,6 +1,5 @@
-/**
+/*
 * File: 1-alphabet.c
-*
 * AUTH: BAYODELE FAITH B.O
 */
 
