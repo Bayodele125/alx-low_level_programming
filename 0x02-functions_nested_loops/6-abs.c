@@ -11,7 +11,7 @@
  *
  * Return: positive value of n
  */
-int -abs(int n)
+int _abs(int n)
 {
 	if (n < 0)
 		return (-1 * n);
