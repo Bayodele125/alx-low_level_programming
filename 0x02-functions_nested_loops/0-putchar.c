@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
 *main - main function to print value
@@ -8,5 +8,7 @@
 
 int main(void)
 {
-	putchar('_putchar')
+	_putchar('_putchar');
+	_putchar('\n');
+	return (0);
 }
