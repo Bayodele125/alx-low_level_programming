@@ -12,12 +12,12 @@
 *@a: fnst integer
 *
 *@b: second integer
-*Retuns: sum of two intergers
+*Return: sum of two intergers
 */
 
 int add(int a, int b)
 {
-	int sum = a+b;
+	int sum = a + b;
 
 	return (sum);
 }
