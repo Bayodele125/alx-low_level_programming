@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
-*main -  prints the number of arguments passed into it.
-*@argc: number of arg in command line.
-*@argv: array of argc.
-*Return: Always (0).
-*/
-
+  * main - Prints all the args content
+  * @argc: argument count
+  * @argv: argument vector
+  *
+  * Return: Always zero
+  */
 int main(int argc, char *argv[])
 {
 	int i;
@@ -16,5 +16,6 @@ int main(int argc, char *argv[])
 	{
 		printf("%s\n", argv[i]);
 	}
+
 	return (0);
 }
