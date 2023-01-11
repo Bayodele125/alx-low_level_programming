@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - prints its name, followed by a new line.
+ * main - prints its name.
  * @argc: argument count
  * @argv: Array of argc
+ * 
  * Return: Always (0)
  */
 
