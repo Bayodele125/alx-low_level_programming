@@ -3,11 +3,11 @@
 #include <stdlib.h>
 
 /**
-*main - Prints the multiplication of two args numbers
-*@argc: number of arg in command line.
-*@argv: array of argc.
-*Return: Always (0).
-*/
+  *main - Prints the multiplication of two args numbers
+  *@argc: number of arg in command line.
+  *@argv: array of argc.
+  *Return: error if argc=0, else (0)
+  */
 
 int main(int argc, char *argv[])
 {
