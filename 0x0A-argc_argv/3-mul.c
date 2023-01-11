@@ -3,12 +3,12 @@
 #include <stdlib.h>
 
 /**
-  * main - Prints the multiplication of two args numbers
-  * @argc: argument count
-  * @argv: argument vector
-  *
-  * Return: Always zero
-  */
+*main - Prints the multiplication of two args numbers
+*@argc: number of arg in command line.
+*@argv: array of argc.
+*Return: Always (0).
+*/
+
 int main(int argc, char *argv[])
 {
 	int n1 = 0, n2 = 0;
@@ -17,9 +17,9 @@ int main(int argc, char *argv[])
 	{
 		n1 = atoi(argv[1]);
 		n2 = atoi(argv[2]);
+
 		printf("%d\n", n1 * n2);
-	}
-	else
+	}else
 	{
 		printf("Error\n");
 		return (1);
