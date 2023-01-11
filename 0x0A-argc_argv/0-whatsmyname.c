@@ -2,16 +2,16 @@
 #include <stdio.h>
 
 /**
-  * main - prints its name.
-  * @argc: argument count
-  * @argv: Array of argc
-  * 
-  * Return: Always (0)
-  */
+*main -  prints the number of arguments passed into it.
+*@argc: number of arg in command line.
+*@argv: array of argc.
+*Return: Always (0).
+*/
 
 int main(int argc, char *argv[])
 {
 	(void) argc;
+
 	printf("%s\n", argv[0]);
 	return (0);
 }
